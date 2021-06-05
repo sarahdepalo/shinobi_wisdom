@@ -19,6 +19,10 @@ main {
     margin-bottom: 70px; 
 }
 
+.col {
+    margin-top: 15px;
+}
+
 .container img {
     height: 500px;
 }
@@ -27,10 +31,16 @@ button.quotebtn {
 
     background-color: #242831;
     color: white;
-    border: none;
+    border: 2px solid #242831;
     padding: 10px 15px;
     margin: 5px 0px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.quotebtn:hover {
+    background-color: white;
+    color: #242831;
+    
 }
 
 p {
@@ -38,3 +48,30 @@ p {
     color: #242831;
     
 }
+
+h4 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #242831;
+    padding: 15px;
+    
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    nav h1 {
+      text-align: center;
+      margin: 0;
+      font-size: 25px;
+    }
+
+    .container img {
+        height: 350px;
+    }
+  }
