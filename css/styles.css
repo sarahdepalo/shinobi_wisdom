@@ -1,7 +1,7 @@
 nav {
     background-color: #242831;
     padding: 15px;
-    display: flex;
+    
 }
 
 nav h1 {
@@ -9,6 +9,12 @@ nav h1 {
     padding-left: 50px;
     font-family: 'Coda Caption', sans-serif;
     text-transform: uppercase;
+}
+nav p {
+    color: white;
+    font-style: normal;
+    padding-left: 50px;
+    margin-top: -10px;
 }
 
 main {
@@ -63,15 +69,28 @@ footer {
 }
 
 
-
 @media only screen and (max-width: 500px) {
     nav h1 {
-      text-align: center;
       margin: 0;
       font-size: 25px;
+      padding-top:5px;
+    
+    }
+    nav {
+        padding: 5px;
     }
 
     .container img {
         height: 350px;
+    }
+
+    nav p {
+        visibility: hidden;
+        font-size: 5px;
+        
+    }
+
+    main {
+        margin-top: 15px;
     }
   }
