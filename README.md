@@ -13,7 +13,9 @@ function randomizeNaruto(quoteArray) {
     }
 ```
 
-This function took the array from each character's endpoint and returned a random quote. Each time the corresponding button is pressed a fetch request will run and repeat the process. I couldn't figure out how to have the same functionality without creating functions for each character, so there is a lot of repetition in the code. 
+This function took the array from each character's endpoint and returned a random quote. Each time the corresponding button is pressed a fetch request will run and repeat the process. I couldn't figure out how to have the same functionality without creating functions for each character, which led to some repetition in the code. 
+
+This site can be viewed at [https://sarahdepalo.github.io/shinobi_wisdom/](https://sarahdepalo.github.io/shinobi_wisdom/).
 
 ## Screenshots
 
